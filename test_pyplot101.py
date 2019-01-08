@@ -1,4 +1,6 @@
 # test pyplot #101
+#%% make sure the mudules (e.g. anaconda) are installed
+# to prevent ImportError
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -12,3 +14,4 @@ plt.grid("on")
 
 plt.show()
 # let's try it now
+#%% # we can continue in juyter notebook style
